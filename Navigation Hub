@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-09T17:36:38.521Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="UmCmVwXiXovVRoxNBXW9" version="14.7.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-06-09T17:38:31.156Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="42aKX7ABstAX8wkbqN6S" version="14.7.6" type="github" pages="4">
   <diagram name="Page-1" id="7a6c530e-6e37-e111-ec74-82921da8cc10">
     <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="#184380" math="0" shadow="0">
       <root>
@@ -635,7 +635,7 @@
           <mxGeometry x="160" y="80" width="136" height="80" as="geometry" />
         </mxCell>
         <mxCell id="_2bz-jb_TBUWNM0NOUeW-5" value="&lt;span style=&quot;font-size: 14px&quot;&gt;ON-PREMISIS&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;strokeWidth=2;fontSize=11;align=center;strokeColor=#432D57;dashed=1;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;fillColor=#76608a;fontColor=#ffffff;" vertex="1" parent="_2bz-jb_TBUWNM0NOUeW-1">
-          <mxGeometry x="410" y="164" width="160" height="145" as="geometry" />
+          <mxGeometry x="410" y="164" width="140" height="145" as="geometry" />
         </mxCell>
         <mxCell id="_2bz-jb_TBUWNM0NOUeW-7" value="" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;strokeWidth=2;fillColor=#dae8fc;fontSize=12;align=center;strokeColor=#6c8ebf;arcSize=10;labelPosition=center;verticalLabelPosition=top;verticalAlign=bottom;gradientColor=#7ea6e0;" vertex="1" parent="_2bz-jb_TBUWNM0NOUeW-1">
           <mxGeometry x="908" y="90" width="96" height="270" as="geometry" />
@@ -747,6 +747,9 @@
         </mxCell>
         <mxCell id="_2bz-jb_TBUWNM0NOUeW-42" value="Cloudflare&lt;br&gt;&amp;nbsp;Cache" style="shape=image;html=1;verticalAlign=middle;verticalLabelPosition=middle;labelBackgroundColor=none;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/windows8_icons_iconpharm/26/cloudflare.png;fontColor=#FFFFFF;fillColor=#8BC63E;labelPosition=left;align=right;" vertex="1" parent="_2bz-jb_TBUWNM0NOUeW-1">
           <mxGeometry x="236" y="205.5" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ogp0f0OSMZcSOxjh9Zca-0" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.android;fillColor=#8CC64F;gradientColor=none;labelBackgroundColor=none;fontColor=#006600;" vertex="1" parent="_2bz-jb_TBUWNM0NOUeW-1">
+          <mxGeometry x="560" y="223.5" width="33.5" height="46.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
