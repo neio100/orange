@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-08-23T14:54:07.538Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="B5TLvb9Ntv47B2kAKk08" version="14.9.8" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-08-23T20:13:36.790Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="csNZzUM2zuGqI7s-Qgjo" version="14.9.8" type="github" pages="5">
   <diagram name="Page-1" id="9361dd3d-8414-5efd-6122-117bd74ce7a7">
-    <mxGraphModel dx="1422" dy="929" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1.5" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1438" dy="947" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1.5" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -696,8 +696,8 @@
         <mxCell id="cccn5QL6odSmSxgDo-ZI-44" value="API Token&#xa;  Authentication / Authorization" style="rounded=1;fontStyle=1;fillColor=#FFD966;strokeColor=none" vertex="1" parent="cccn5QL6odSmSxgDo-ZI-1">
           <mxGeometry x="50" y="-10" width="190" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="cccn5QL6odSmSxgDo-ZI-45" value="Login Flow" style="rounded=1;fontStyle=1;fillColor=#FFD966;strokeColor=none" vertex="1" parent="cccn5QL6odSmSxgDo-ZI-1">
-          <mxGeometry x="152.5" y="420" width="87.5" height="30" as="geometry" />
+        <mxCell id="cccn5QL6odSmSxgDo-ZI-45" value="Initial Flow with valid PING Token" style="rounded=1;fontStyle=1;fillColor=#FFD966;strokeColor=none" vertex="1" parent="cccn5QL6odSmSxgDo-ZI-1">
+          <mxGeometry x="152.5" y="420" width="237.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cccn5QL6odSmSxgDo-ZI-46" value="-Response caching /validate JWT&#xa;&#xa;-Valid PING or JWT token&#xa;&#xa;-If valid PING generate a JWT token &#xa;with same expiry as PING&#xa;&#xa;- Populate Request HEADER &#xa;    with USER_ID + CLAIMS and&#xa; forward request to backend K8 service.&#xa;&#xa;-APIM Response Header with JWT token" style="shape=note;align=left" vertex="1" parent="cccn5QL6odSmSxgDo-ZI-1">
           <mxGeometry x="597.5" y="470" width="222.5" height="230" as="geometry" />
@@ -758,6 +758,17 @@
             <mxPoint x="946" y="346.59848557055875" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="c-IYdnRveWS_O9nZewCV" name="Block Diagram">
+    <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
+      <root>
+        <mxCell id="Nvb3_8sw2wU6VFG_wC7T-0" />
+        <mxCell id="Nvb3_8sw2wU6VFG_wC7T-1" parent="Nvb3_8sw2wU6VFG_wC7T-0" />
+        <mxCell id="Nvb3_8sw2wU6VFG_wC7T-2" value="Azure API Gateway" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/app_services/API_Management_Services.svg;" vertex="1" parent="Nvb3_8sw2wU6VFG_wC7T-1">
+          <mxGeometry x="330" y="120" width="65" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
