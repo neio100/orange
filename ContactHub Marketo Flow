@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-25T03:48:55.229Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="BR9rJpbYjgXbBnu6zQJk" version="14.9.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-08-25T03:50:46.311Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="Bbap8amxEx-TZR4BbAHD" version="14.9.8" type="github" pages="2">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
     <mxGraphModel dx="1483" dy="1608" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#999999" math="0" shadow="1">
       <root>
@@ -11,7 +11,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5LiO56LBfg6gPTagjJnz-2100" value="Marketo Wrapper Service" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="710" y="-70" width="190" height="160" as="geometry" />
+          <mxGeometry x="724" y="-70" width="144" height="121" as="geometry" />
         </mxCell>
         <mxCell id="5LiO56LBfg6gPTagjJnz-2109" value="On-Premise Datacenter" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="40" y="-200" width="520" height="350" as="geometry" />
@@ -21,15 +21,16 @@
             <mxPoint x="805" y="60" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5LiO56LBfg6gPTagjJnz-2118" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#E6E6E6;startArrow=none;startFill=0;strokeColor=#FFFFFF;strokeWidth=2;exitX=0.1;exitY=0.2;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="5LiO56LBfg6gPTagjJnz-2089" target="5LiO56LBfg6gPTagjJnz-2093">
+        <mxCell id="5LiO56LBfg6gPTagjJnz-2118" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#E6E6E6;startArrow=none;startFill=0;strokeColor=#FFFFFF;strokeWidth=2;exitX=0.1;exitY=0.2;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="5LiO56LBfg6gPTagjJnz-2089">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="800" y="52" as="targetPoint" />
             <Array as="points">
               <mxPoint x="800" y="186" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="5LiO56LBfg6gPTagjJnz-2101" value="Communication Repositry Service" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="740" y="158" width="150" height="142" as="geometry" />
+          <mxGeometry x="748" y="158" width="129" height="113" as="geometry" />
         </mxCell>
         <mxCell id="5LiO56LBfg6gPTagjJnz-2089" value="" style="html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon;prIcon=api" vertex="1" parent="1">
           <mxGeometry x="770" y="168" width="90" height="90" as="geometry" />
@@ -65,16 +66,16 @@
           <mxGeometry x="890" y="-200" width="57.5" height="70" as="geometry" />
         </mxCell>
         <mxCell id="5LiO56LBfg6gPTagjJnz-2093" value="" style="html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon;prIcon=api" vertex="1" parent="1">
-          <mxGeometry x="720" y="-60" width="160" height="110" as="geometry" />
+          <mxGeometry x="740" y="-64" width="113" height="88" as="geometry" />
         </mxCell>
         <mxCell id="5LiO56LBfg6gPTagjJnz-2094" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/databases/Azure_Cosmos_DB.svg;" vertex="1" parent="1">
           <mxGeometry x="996" y="204" width="84" height="84" as="geometry" />
         </mxCell>
         <mxCell id="5LiO56LBfg6gPTagjJnz-2104" value="Contact Hub Service" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="943" y="-70" width="190" height="160" as="geometry" />
+          <mxGeometry x="965" y="-70" width="130" height="105" as="geometry" />
         </mxCell>
         <mxCell id="5LiO56LBfg6gPTagjJnz-2105" value="" style="html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon;prIcon=api" vertex="1" parent="1">
-          <mxGeometry x="959.5" y="-55" width="157" height="100" as="geometry" />
+          <mxGeometry x="971" y="-61" width="122.5" height="82" as="geometry" />
         </mxCell>
         <mxCell id="5LiO56LBfg6gPTagjJnz-2117" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#E6E6E6;startArrow=none;startFill=0;strokeColor=#FFFFFF;strokeWidth=2;" edge="1" parent="1" source="5LiO56LBfg6gPTagjJnz-2110" target="5LiO56LBfg6gPTagjJnz-2101">
           <mxGeometry relative="1" as="geometry" />
