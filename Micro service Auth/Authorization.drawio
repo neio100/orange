@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-29T16:38:09.074Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36" etag="eWOTydLuzVfMIGkHXLtT" version="15.3.5" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2021-09-29T19:23:34.081Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36" etag="q4S-Z0OSDzQ09PbZvV-A" version="15.3.5" type="github" pages="11">
   <diagram name="Page-1" id="9361dd3d-8414-5efd-6122-117bd74ce7a7">
     <mxGraphModel dx="1438" dy="947" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1.5" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -497,7 +497,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Login Flow with PING" id="Iw6Wm7O26hB8B4KVgsti">
-    <mxGraphModel dx="1424" dy="931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1.5" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1438" dy="947" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1.5" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="cccn5QL6odSmSxgDo-ZI-0" />
         <mxCell id="cccn5QL6odSmSxgDo-ZI-1" parent="cccn5QL6odSmSxgDo-ZI-0" />
@@ -990,8 +990,160 @@
       </root>
     </mxGraphModel>
   </diagram>
+  <diagram name="Azure JWT Token Generation" id="im_EW8Jjd061oKhY7kFx">
+    <mxGraphModel dx="1483" dy="1181" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1.5" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0e6dBhuO4_zsrkF-XCv_-0" />
+        <mxCell id="0e6dBhuO4_zsrkF-XCv_-1" parent="0e6dBhuO4_zsrkF-XCv_-0" />
+        <mxCell id="0e6dBhuO4_zsrkF-XCv_-2" value="" style="fillColor=#DEE8FF;strokeColor=none" vertex="1" parent="0e6dBhuO4_zsrkF-XCv_-1">
+          <mxGeometry x="420" y="870" width="830" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="0e6dBhuO4_zsrkF-XCv_-6" value="CLIENT" style="shadow=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="0e6dBhuO4_zsrkF-XCv_-1">
+          <mxGeometry x="110" y="60" width="105" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0e6dBhuO4_zsrkF-XCv_-8" value="JWTRequestFilter" style="shadow=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="0e6dBhuO4_zsrkF-XCv_-1">
+          <mxGeometry x="260" y="60" width="125" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0e6dBhuO4_zsrkF-XCv_-14" value="ValidationController" style="shadow=1;fillColor=#A2C4C9;strokeColor=none" vertex="1" parent="0e6dBhuO4_zsrkF-XCv_-1">
+          <mxGeometry x="462.2839506172839" y="59.99999999999997" width="105" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0e6dBhuO4_zsrkF-XCv_-18" value="JwtUserDetailService&#xa;implements&#xa;UserDetailService" style="shadow=1;fillColor=#A2C4C9;strokeColor=none" vertex="1" parent="0e6dBhuO4_zsrkF-XCv_-1">
+          <mxGeometry x="660" y="60" width="117.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0e6dBhuO4_zsrkF-XCv_-19" value="" style="edgeStyle=none;endArrow=none;strokeWidth=3;strokeColor=#666666;" edge="1" parent="0e6dBhuO4_zsrkF-XCv_-1">
+          <mxGeometry x="655.4878472222224" y="164.99999999999997" width="100" height="100" as="geometry">
+            <mxPoint x="720.0333333333333" y="120" as="sourcePoint" />
+            <mxPoint x="720" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0e6dBhuO4_zsrkF-XCv_-20" value="JwtTokenUtil" style="shadow=1;fillColor=#A2C4C9;strokeColor=none" vertex="1" parent="0e6dBhuO4_zsrkF-XCv_-1">
+          <mxGeometry x="830" y="60" width="105" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0e6dBhuO4_zsrkF-XCv_-39" value="Generating JWT Token from PING" style="rounded=1;fontStyle=1;fillColor=#FFD966;strokeColor=none" vertex="1" parent="0e6dBhuO4_zsrkF-XCv_-1">
+          <mxGeometry x="50" y="-10" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0e6dBhuO4_zsrkF-XCv_-47" value="" style="edgeStyle=none;endArrow=none;strokeWidth=3;strokeColor=#666666;" edge="1" parent="0e6dBhuO4_zsrkF-XCv_-1">
+          <mxGeometry x="95.4878472222224" y="164.99999999999997" width="100" height="100" as="geometry">
+            <mxPoint x="160.0333333333333" y="120" as="sourcePoint" />
+            <mxPoint x="160" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0e6dBhuO4_zsrkF-XCv_-48" value="" style="edgeStyle=none;endArrow=none;strokeWidth=3;strokeColor=#666666;" edge="1" parent="0e6dBhuO4_zsrkF-XCv_-1">
+          <mxGeometry x="255.4878472222224" y="164.99999999999997" width="100" height="100" as="geometry">
+            <mxPoint x="320.0333333333333" y="120" as="sourcePoint" />
+            <mxPoint x="320" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0e6dBhuO4_zsrkF-XCv_-49" value="" style="edgeStyle=none;endArrow=none;strokeWidth=3;strokeColor=#666666;" edge="1" parent="0e6dBhuO4_zsrkF-XCv_-1">
+          <mxGeometry x="455.4878472222224" y="164.99999999999997" width="100" height="100" as="geometry">
+            <mxPoint x="520.0333333333333" y="120" as="sourcePoint" />
+            <mxPoint x="520" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0e6dBhuO4_zsrkF-XCv_-50" value="" style="edgeStyle=none;endArrow=none;strokeWidth=3;strokeColor=#666666;" edge="1" parent="0e6dBhuO4_zsrkF-XCv_-1">
+          <mxGeometry x="815.4878472222224" y="164.99999999999997" width="100" height="100" as="geometry">
+            <mxPoint x="880.0333333333333" y="120" as="sourcePoint" />
+            <mxPoint x="880" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0e6dBhuO4_zsrkF-XCv_-51" value="" style="endArrow=classic;html=1;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;strokeColor=#666666;strokeWidth=3;" edge="1" parent="0e6dBhuO4_zsrkF-XCv_-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="160" as="sourcePoint" />
+            <mxPoint x="320" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0e6dBhuO4_zsrkF-XCv_-52" value="&lt;font style=&quot;font-size: 10px&quot;&gt;POST /validate with token&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="0e6dBhuO4_zsrkF-XCv_-1">
+          <mxGeometry x="145" y="140" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="0e6dBhuO4_zsrkF-XCv_-53" value="" style="endArrow=classic;html=1;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;strokeColor=#666666;strokeWidth=3;dashed=1;" edge="1" parent="0e6dBhuO4_zsrkF-XCv_-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="180" as="sourcePoint" />
+            <mxPoint x="160" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0e6dBhuO4_zsrkF-XCv_-54" value="&lt;font style=&quot;font-size: 10px&quot;&gt;No token/ Invalid token&lt;br&gt;Forward request to Login screen&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="0e6dBhuO4_zsrkF-XCv_-1">
+          <mxGeometry x="170" y="195" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0e6dBhuO4_zsrkF-XCv_-55" value="" style="endArrow=classic;html=1;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;strokeColor=#666666;strokeWidth=3;" edge="1" parent="0e6dBhuO4_zsrkF-XCv_-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="240" as="sourcePoint" />
+            <mxPoint x="520" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0e6dBhuO4_zsrkF-XCv_-56" value="3. Validate PING token by&lt;br&gt;invoking the PING REST &lt;br&gt;endpoint," style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="0e6dBhuO4_zsrkF-XCv_-1">
+          <mxGeometry x="340" y="195" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0e6dBhuO4_zsrkF-XCv_-57" value="" style="endArrow=classic;html=1;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;strokeColor=#666666;strokeWidth=3;" edge="1" parent="0e6dBhuO4_zsrkF-XCv_-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="270" as="sourcePoint" />
+            <mxPoint x="720" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0e6dBhuO4_zsrkF-XCv_-58" value="4. Get the UserDetails&lt;br&gt;&amp;nbsp;from the introspect / info endpoints." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="0e6dBhuO4_zsrkF-XCv_-1">
+          <mxGeometry x="510" y="235" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0e6dBhuO4_zsrkF-XCv_-60" value="" style="endArrow=classic;html=1;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;strokeColor=#666666;strokeWidth=3;" edge="1" parent="0e6dBhuO4_zsrkF-XCv_-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="360" as="sourcePoint" />
+            <mxPoint x="880" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0e6dBhuO4_zsrkF-XCv_-61" value="" style="endArrow=classic;html=1;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;strokeColor=#666666;strokeWidth=3;dashed=1;" edge="1" parent="0e6dBhuO4_zsrkF-XCv_-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="310" as="sourcePoint" />
+            <mxPoint x="520" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0e6dBhuO4_zsrkF-XCv_-62" value="5. Call generateJWTToken(UserDetails) &lt;br&gt;method to generate a valid token." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="0e6dBhuO4_zsrkF-XCv_-1">
+          <mxGeometry x="600" y="390" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0e6dBhuO4_zsrkF-XCv_-63" value="Redis Utils" style="shadow=1;fillColor=#A2C4C9;strokeColor=none" vertex="1" parent="0e6dBhuO4_zsrkF-XCv_-1">
+          <mxGeometry x="990" y="60" width="105" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0e6dBhuO4_zsrkF-XCv_-64" value="" style="endArrow=classic;html=1;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;strokeColor=#666666;strokeWidth=3;dashed=1;" edge="1" parent="0e6dBhuO4_zsrkF-XCv_-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="880" y="430.0000000000002" as="sourcePoint" />
+            <mxPoint x="520" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0e6dBhuO4_zsrkF-XCv_-65" value="" style="endArrow=classic;html=1;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;strokeColor=#666666;strokeWidth=3;" edge="1" parent="0e6dBhuO4_zsrkF-XCv_-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="489.9999999999998" as="sourcePoint" />
+            <mxPoint x="1040" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0e6dBhuO4_zsrkF-XCv_-66" value="" style="edgeStyle=none;endArrow=none;strokeWidth=3;strokeColor=#666666;" edge="1" parent="0e6dBhuO4_zsrkF-XCv_-1">
+          <mxGeometry x="975.4878472222224" y="164.99999999999997" width="100" height="100" as="geometry">
+            <mxPoint x="1040.0333333333333" y="120" as="sourcePoint" />
+            <mxPoint x="1040" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0e6dBhuO4_zsrkF-XCv_-67" value="" style="endArrow=classic;html=1;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;strokeColor=#666666;strokeWidth=3;dashed=1;" edge="1" parent="0e6dBhuO4_zsrkF-XCv_-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1040" y="540.0000000000002" as="sourcePoint" />
+            <mxPoint x="520" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0e6dBhuO4_zsrkF-XCv_-68" value="6. Save the PING token and JWT token in Cache. Use TTL to expire the JWT token" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="0e6dBhuO4_zsrkF-XCv_-1">
+          <mxGeometry x="540" y="460" width="460" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="0e6dBhuO4_zsrkF-XCv_-69" value="" style="endArrow=classic;html=1;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;strokeColor=#666666;strokeWidth=3;entryX=-0.004;entryY=0.142;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="0e6dBhuO4_zsrkF-XCv_-1" target="0e6dBhuO4_zsrkF-XCv_-70">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="619.9999999999998" as="sourcePoint" />
+            <mxPoint x="1250" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0e6dBhuO4_zsrkF-XCv_-70" value="Backend Service" style="shadow=1;fillColor=#A2C4C9;strokeColor=none" vertex="1" parent="0e6dBhuO4_zsrkF-XCv_-1">
+          <mxGeometry x="1290" y="590" width="105" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="0e6dBhuO4_zsrkF-XCv_-71" value="7. Populate the JWT token in the header and forward the request to backend service" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="0e6dBhuO4_zsrkF-XCv_-1">
+          <mxGeometry x="660" y="630" width="460" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
   <diagram name="App to App Authentication Using WSO2" id="DHBIQSAZDD0HRAv7MLow">
-    <mxGraphModel dx="1424" dy="931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1.5" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1438" dy="947" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1.5" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="IHjuJvGiz-Ti7kw_Zy61-0" />
         <mxCell id="IHjuJvGiz-Ti7kw_Zy61-1" parent="IHjuJvGiz-Ti7kw_Zy61-0" />
@@ -1257,7 +1409,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Copy of Login Flow with JWT" id="nCIyqfxaQqdYX7hdZaLx">
-    <mxGraphModel dx="1424" dy="931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1.5" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1438" dy="947" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1.5" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="FXZz9XqRezBrOM3pfQBz-0" />
         <mxCell id="FXZz9XqRezBrOM3pfQBz-1" parent="FXZz9XqRezBrOM3pfQBz-0" />
