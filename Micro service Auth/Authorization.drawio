@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-30T14:41:55.968Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="jotGevJ9jiHbyW3jtd9U" version="15.3.8" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2021-09-30T14:48:44.132Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="vfDgs_CDoyeiyJjlH2ND" version="15.3.8" type="github" pages="12">
   <diagram name="Page-1" id="9361dd3d-8414-5efd-6122-117bd74ce7a7">
     <mxGraphModel dx="1438" dy="947" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1.5" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -768,10 +768,10 @@
         <mxCell id="beQlj7hG8X4FH7egZ1no-0" />
         <mxCell id="beQlj7hG8X4FH7egZ1no-1" parent="beQlj7hG8X4FH7egZ1no-0" />
         <mxCell id="beQlj7hG8X4FH7egZ1no-2" value="" style="fillColor=#DEE8FF;strokeColor=none" parent="beQlj7hG8X4FH7egZ1no-1" vertex="1">
-          <mxGeometry x="-10" y="-30" width="1160" height="740" as="geometry" />
+          <mxGeometry x="-10" y="-30" width="1010" height="670" as="geometry" />
         </mxCell>
         <mxCell id="beQlj7hG8X4FH7egZ1no-3" value="" style="fillColor=#CCD5EB" parent="beQlj7hG8X4FH7egZ1no-1" vertex="1">
-          <mxGeometry x="60.6" y="120" width="1009.4" height="320" as="geometry" />
+          <mxGeometry x="60.6" y="120" width="819.4" height="320" as="geometry" />
         </mxCell>
         <mxCell id="beQlj7hG8X4FH7egZ1no-4" value="" style="fillColor=#CC4125;strokeColor=#660000" parent="beQlj7hG8X4FH7egZ1no-1" vertex="1">
           <mxGeometry x="200" y="150" width="10" height="130" as="geometry" />
@@ -908,7 +908,7 @@
         <mxCell id="beQlj7hG8X4FH7egZ1no-28" value="" style="ellipse;fillColor=none" parent="beQlj7hG8X4FH7egZ1no-1" vertex="1">
           <mxGeometry x="802.5000000000001" y="260.0042901234568" width="9.999999999999886" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="beQlj7hG8X4FH7egZ1no-29" value=" - user token&#xa; validation&#xa;&#xa; - Response with &#xa;User principle and &#xa;group membership" style="shape=note;align=left" parent="beQlj7hG8X4FH7egZ1no-1" vertex="1">
+        <mxCell id="beQlj7hG8X4FH7egZ1no-29" value=" - PING user token&#xa; validation&#xa;&#xa; - Response with &#xa;User Info by PING" style="shape=note;align=left" parent="beQlj7hG8X4FH7egZ1no-1" vertex="1">
           <mxGeometry x="840.0029938271605" y="470.0036111111111" width="120.02700617283949" height="109.82638888888889" as="geometry" />
         </mxCell>
         <mxCell id="beQlj7hG8X4FH7egZ1no-30" value="" style="edgeStyle=none;endArrow=none;dashed=1" parent="beQlj7hG8X4FH7egZ1no-1" source="beQlj7hG8X4FH7egZ1no-29" target="beQlj7hG8X4FH7egZ1no-28" edge="1">
@@ -956,14 +956,14 @@
             <mxPoint x="1355" y="539.9999999999998" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="beQlj7hG8X4FH7egZ1no-40" value="API Token&#xa;  Authentication / Authorization" style="rounded=1;fontStyle=1;fillColor=#FFD966;strokeColor=none" parent="beQlj7hG8X4FH7egZ1no-1" vertex="1">
+        <mxCell id="beQlj7hG8X4FH7egZ1no-40" value="Azure APIM Authentication" style="rounded=1;fontStyle=1;fillColor=#FFD966;strokeColor=none" parent="beQlj7hG8X4FH7egZ1no-1" vertex="1">
           <mxGeometry x="50" y="-10" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="beQlj7hG8X4FH7egZ1no-41" value="Initial Flow with valid PING Token" style="rounded=1;fontStyle=1;fillColor=#FFD966;strokeColor=none" parent="beQlj7hG8X4FH7egZ1no-1" vertex="1">
           <mxGeometry x="152.5" y="420" width="237.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="beQlj7hG8X4FH7egZ1no-42" value="&#xa;-Valid PING or JWT token &#xa;&#xa;-If valid PING generate a JWT token &#xa;with same expiry as PING&#xa;&#xa;- Populate Request HEADER &#xa;    with USER_ID + CLAIMS and&#xa; forward request to backend services..&#xa;" style="shape=note;align=left" parent="beQlj7hG8X4FH7egZ1no-1" vertex="1">
-          <mxGeometry x="597.5" y="470" width="222.5" height="230" as="geometry" />
+        <mxCell id="beQlj7hG8X4FH7egZ1no-42" value="&#xa;&#xa;-If valid PING token; generate a JWT token &#xa;with same expiry as PING token&#xa;&#xa;- Populate Request HEADER &#xa;    with JWT token and&#xa; forward request to backend services.&#xa;- Check validity of JWT token against &#xa;BlackList Registry.&#xa;" style="shape=note;align=left" parent="beQlj7hG8X4FH7egZ1no-1" vertex="1">
+          <mxGeometry x="597.5" y="470" width="232.5" height="140" as="geometry" />
         </mxCell>
         <mxCell id="beQlj7hG8X4FH7egZ1no-43" value="" style="edgeStyle=none;endArrow=none;dashed=1;entryX=0;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.722;exitY=0.946;exitDx=0;exitDy=0;exitPerimeter=0;" parent="beQlj7hG8X4FH7egZ1no-1" source="beQlj7hG8X4FH7egZ1no-16" target="beQlj7hG8X4FH7egZ1no-42" edge="1">
           <mxGeometry x="1040" y="190" width="100" height="100" as="geometry">
