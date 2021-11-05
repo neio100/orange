@@ -1,1 +1,68 @@
-<mxfile host="app.diagrams.net" modified="2021-11-05T18:14:24.095Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" version="15.5.6" etag="iqIOK8txO_tiNSZxkF-7" type="github"><diagram id="mKXuFwp2jugTwR1Iygpb">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-11-05T18:25:54.421Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="Lqu9qEdRfACcZ4-Ma67-" version="15.5.6" type="github">
+  <diagram id="mKXuFwp2jugTwR1Iygpb" name="Page-1">
+    <mxGraphModel dx="1024" dy="531" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="K59rG-kRDpXOBb_W40Ga-1" value="Main Shell Application" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;fillColor=#008a00;fontColor=default;strokeColor=#005700;" vertex="1" parent="1">
+          <mxGeometry x="360" y="120" width="200" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="K59rG-kRDpXOBb_W40Ga-2" value="Header MFE App" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K59rG-kRDpXOBb_W40Ga-3" value="Cart MFE" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;fillColor=#1ba1e2;fontColor=default;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="700" y="70" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="K59rG-kRDpXOBb_W40Ga-4" value="Nav MFE" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;fillColor=#1ba1e2;fontColor=default;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="830" y="207" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="K59rG-kRDpXOBb_W40Ga-5" value="Search MFE" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;fillColor=#1ba1e2;fontColor=default;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="700" y="370" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="K59rG-kRDpXOBb_W40Ga-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=default;entryX=1;entryY=0.75;entryDx=0;entryDy=0;curved=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="K59rG-kRDpXOBb_W40Ga-10" target="K59rG-kRDpXOBb_W40Ga-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K59rG-kRDpXOBb_W40Ga-6" value="Cart Component" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="80" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K59rG-kRDpXOBb_W40Ga-8" value="Account Nav Com" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="257" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K59rG-kRDpXOBb_W40Ga-9" value="Global Nav Comp" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="217" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K59rG-kRDpXOBb_W40Ga-10" value="Search Component" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="390" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K59rG-kRDpXOBb_W40Ga-19" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=default;entryX=0;entryY=0.193;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="K59rG-kRDpXOBb_W40Ga-12" target="K59rG-kRDpXOBb_W40Ga-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="315" y="163.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K59rG-kRDpXOBb_W40Ga-12" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.web_page;" vertex="1" parent="1">
+          <mxGeometry x="140" y="120" width="90" height="87" as="geometry" />
+        </mxCell>
+        <mxCell id="K59rG-kRDpXOBb_W40Ga-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=default;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="K59rG-kRDpXOBb_W40Ga-9" target="K59rG-kRDpXOBb_W40Ga-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="780" y="345" as="sourcePoint" />
+            <mxPoint x="520" y="205" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K59rG-kRDpXOBb_W40Ga-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=default;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="K59rG-kRDpXOBb_W40Ga-8" target="K59rG-kRDpXOBb_W40Ga-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="790" y="355" as="sourcePoint" />
+            <mxPoint x="530" y="215" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K59rG-kRDpXOBb_W40Ga-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=default;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="K59rG-kRDpXOBb_W40Ga-6" target="K59rG-kRDpXOBb_W40Ga-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="800" y="365" as="sourcePoint" />
+            <mxPoint x="540" y="225" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
