@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-24T14:59:44.961Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="AulFomDJeX0fPBvD5QR7" version="17.1.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-03-24T15:00:30.451Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="EaM1_CaRrPjvEWc-ATFH" version="17.1.5" type="github" pages="2">
   <diagram id="7fLqanJ-zvUfdxJyM8Or" name="Page-1">
     <mxGraphModel dx="1038" dy="2467" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
@@ -50,7 +50,7 @@
         <mxCell id="H0OoKV88aKxVpmhUkX6y-6" value="Bitbucket&#xa; Repository" style="image;image=img/lib/atlassian/Bitbucket_Logo.svg;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="322.5" y="534.7399999999999" width="38.5" height="32.82" as="geometry" />
         </mxCell>
-        <mxCell id="H0OoKV88aKxVpmhUkX6y-9" value="Storage Account&lt;br&gt;(Static files + media files)&lt;br&gt;https://static.medline.com/" style="aspect=fixed;html=1;points=[];align=left;image;fontSize=12;image=img/lib/azure2/storage/Storage_Accounts.svg;dashed=1;labelPosition=right;verticalLabelPosition=top;verticalAlign=bottom;" parent="1" vertex="1">
+        <mxCell id="H0OoKV88aKxVpmhUkX6y-9" value="Storage Account&lt;br&gt;(Static files + media files)" style="aspect=fixed;html=1;points=[];align=left;image;fontSize=12;image=img/lib/azure2/storage/Storage_Accounts.svg;dashed=1;labelPosition=right;verticalLabelPosition=top;verticalAlign=bottom;" parent="1" vertex="1">
           <mxGeometry x="655" y="87.1" width="55" height="44" as="geometry" />
         </mxCell>
         <mxCell id="H0OoKV88aKxVpmhUkX6y-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;" parent="1" source="H0OoKV88aKxVpmhUkX6y-23" target="H0OoKV88aKxVpmhUkX6y-9" edge="1">
